@@ -1,8 +1,8 @@
 {
-  "description": "Pruebe con otro término o háganoslo saber",
-  "body": "Hola, administrador(es) de la instancia,",
-  "archive_module_description": "Solo los módulos completados o cancelados",
-  "glott_welcome": "¡Bienvenido a Plane! Gestione sus proyectos con facilidad.",
-  "glott_upgrade": "Actualice a Enterprise,",
-  "glott_feature_desc": "Desbloquee análisis avanzados, flujos de trabajo personalizados y soporte prioritario."
+  "description": "Prueba un término diferente o haznos saber",
+  "body": "Hola, administrador(es) de instancia,",
+  "archive_module_description": "Solo los completados o cancelados",
+  "glott_welcome": "¡Bienvenido a Plane! Gestiona tus proyectos con facilidad.",
+  "glott_upgrade": "Actualizar a Enterprise,",
+  "glott_feature_desc": "Desbloquea análisis avanzados, flujos de trabajo personalizados y soporte prioritario."
 }
