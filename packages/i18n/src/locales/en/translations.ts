@@ -422,7 +422,8 @@ export default {
       },
       widgets: {
         title: "It's Quiet Without Widgets, Turn Them On",
-        description: "It looks like all your widgets are turned off. Enable them\nnow to enhance your experience!",
+        description: "It looks like all your widgets are turned off. Enable them
+now to enhance your experience!",
         primary_button: {
           text: "Manage widgets",
         },
@@ -925,7 +926,8 @@ export default {
       label: "Sibling work items",
     },
     archive: {
-      description: "Only completed or canceled\nwork items can be archived",
+      description: "Only completed or canceled
+work items can be archived",
       label: "Archive Work item",
       confirm_message:
         "Are you sure you want to archive the work item? All your archived work items can be restored later.",
@@ -1139,7 +1141,13 @@ export default {
     },
     request_email: {
       subject: "Requesting a new workspace",
-      body: "Hi instance admin(s),\n\nPlease create a new workspace with the URL [/workspace-name] for [purpose of creating the workspace].\n\nThanks,\n{firstName} {lastName}\n{email}",
+      body: "Hi instance admin(s),
+
+Please create a new workspace with the URL [/workspace-name] for [purpose of creating the workspace].
+
+Thanks,
+{firstName} {lastName}
+{email}",
     },
     button: {
       default: "Create workspace",
@@ -1310,10 +1318,12 @@ export default {
       },
       filter: {
         title: "No matching projects",
-        description: "No projects detected with the matching criteria. \n Create a new project instead.",
+        description: "No projects detected with the matching criteria. 
+ Create a new project instead.",
       },
       search: {
-        description: "No projects detected with the matching criteria.\nCreate a new project instead",
+        description: "No projects detected with the matching criteria.
+Create a new project instead",
       },
     },
   },
@@ -2046,7 +2056,8 @@ export default {
     },
     quick_actions: {
       archive_module: "Archive module",
-      archive_module_description: "Only completed or canceled\nmodule can be archived.",
+      archive_module_description: "Only completed or canceled
+module can be archived.",
       delete_module: "Delete module",
     },
     toast: {
@@ -2075,7 +2086,8 @@ export default {
       },
       filter: {
         title: "No matching views",
-        description: "No views match the search criteria. \n Create a new view instead.",
+        description: "No views match the search criteria. 
+ Create a new view instead.",
       },
     },
     delete_view: {
@@ -2171,11 +2183,13 @@ export default {
       },
       all: {
         title: "No work items assigned",
-        description: "Updates for work items assigned to you can be \n seen here",
+        description: "Updates for work items assigned to you can be 
+ seen here",
       },
       mentions: {
         title: "No work items assigned",
-        description: "Updates for work items assigned to you can be \n seen here",
+        description: "Updates for work items assigned to you can be 
+ seen here",
       },
     },
     tabs: {
@@ -2304,7 +2318,8 @@ export default {
       },
       search: {
         title: "That doesn't match any of your stickies.",
-        description: "Try a different term or let us know\nif you are sure your search is right. ",
+        description: "Try a different term or let us know
+if you are sure your search is right. ",
         primary_button: {
           text: "Add sticky",
         },
@@ -2709,4 +2724,7 @@ export default {
     stickies: "Stickies",
     your_work: "Your work",
   },
+  glott_welcome: "Welcome to Plane! Manage your projects with ease.",
+  glott_upgrade: "Upgrade to Enterprise",
+  glott_feature_desc: "Unlock advanced analytics, custom workflows, and priority support.",
 } as const;
