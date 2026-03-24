@@ -1,0 +1,47 @@
+# Glott i18n configuration
+# See https://glott.dev/docs/config for full reference
+
+# The primary language used as the source of truth
+sourceLanguage: en
+
+# Languages to translate into
+targetLanguages:
+  - cs
+  - de
+  - es
+  - fr
+  - id
+  - it
+  - ja
+  - ko
+  - pl
+  - pt-BR
+  - ro
+  - ru
+  - sk
+  - tr-TR
+  - vi-VN
+  - zh-CN
+  - zh-TW
+
+# Paths to scan for locale files (relative to repo root)
+localePaths:
+  - packages/i18n
+  - packages/utils/src/rich-filters/values
+
+# Documentation paths to translate
+docs:
+  - path: docs/**/*.md
+    translatedPath: docs/{lang}/**/*.md
+
+# Translation policies
+policies:
+  # Minimum translation coverage percentage required to pass checks
+  minCoverage: 100
+  # Whether to flag keys where the translation matches the source (possibly untranslated)
+  failOnStale: false
+  # Whether to flag keys in target that don't exist in source
+  failOnExtra: false
+
+# Block PR merges when translation checks fail
+mergeBlocking: true
