@@ -133,8 +133,7 @@ export default {
     },
     forgot_password: {
       title: "パスワードをリセット",
-      description:
-        "確認済みのユーザーアカウントのメールアドレスを入力してください。パスワードリセットリンクを送信します。",
+      description: "確認済みのユーザーアカウントのメールアドレスを入力してください。パスワードリセットリンクを送信します。",
       email_sent: "リセットリンクをメールアドレスに送信しました",
       send_reset_link: "リセットリンクを送信",
       errors: {
@@ -143,8 +142,7 @@ export default {
       toast: {
         success: {
           title: "メール送信完了",
-          message:
-            "パスワードをリセットするためのリンクを受信トレイで確認してください。数分以内に表示されない場合は、迷惑メールフォルダを確認してください。",
+          message: "パスワードをリセットするためのリンクを受信トレイで確認してください。数分以内に表示されない場合は、迷惑メールフォルダを確認してください。",
         },
         error: {
           title: "エラー！",
@@ -208,8 +206,7 @@ export default {
   saving: "保存中",
   save_changes: "変更を保存",
   deactivate_account: "アカウントを無効化",
-  deactivate_account_description:
-    "アカウントを無効化すると、そのアカウント内のすべてのデータとリソースが完全に削除され、復元できなくなります。",
+  deactivate_account_description: "アカウントを無効化すると、そのアカウント内のすべてのデータとリソースが完全に削除され、復元できなくなります。",
   profile_settings: "プロフィール設定",
   your_account: "あなたのアカウント",
   security: "セキュリティ",
@@ -252,8 +249,7 @@ export default {
   theme_updated_successfully: "テーマが正常に更新されました",
   failed_to_update_the_theme: "テーマの更新に失敗しました",
   email_notifications: "メール通知",
-  stay_in_the_loop_on_issues_you_are_subscribed_to_enable_this_to_get_notified:
-    "購読している作業項目の最新情報を受け取ります。通知を受け取るには有効にしてください。",
+  stay_in_the_loop_on_issues_you_are_subscribed_to_enable_this_to_get_notified: "購読している作業項目の最新情報を受け取ります。通知を受け取るには有効にしてください。",
   email_notification_setting_updated_successfully: "メール通知設定が正常に更新されました",
   failed_to_update_email_notification_setting: "メール通知設定の更新に失敗しました",
   notify_me_when: "通知を受け取るタイミング",
@@ -272,26 +268,21 @@ export default {
   sign_out: "サインアウト",
   signing_out: "サインアウト中",
   active_cycles: "アクティブサイクル",
-  active_cycles_description:
-    "プロジェクト全体のサイクルを監視し、優先度の高い作業項目を追跡し、注意が必要なサイクルにズームインします。",
+  active_cycles_description: "プロジェクト全体のサイクルを監視し、優先度の高い作業項目を追跡し、注意が必要なサイクルにズームインします。",
   on_demand_snapshots_of_all_your_cycles: "すべてのサイクルのオンデマンドスナップショット",
   upgrade: "アップグレード",
   "10000_feet_view": "すべてのアクティブサイクルの俯瞰図",
-  "10000_feet_view_description":
-    "各プロジェクトのサイクル間を移動する代わりに、すべてのプロジェクトの実行中のサイクルを一度に確認できます。",
+  "10000_feet_view_description": "各プロジェクトのサイクル間を移動する代わりに、すべてのプロジェクトの実行中のサイクルを一度に確認できます。",
   get_snapshot_of_each_active_cycle: "各アクティブサイクルのスナップショットを取得",
-  get_snapshot_of_each_active_cycle_description:
-    "すべてのアクティブサイクルの主要な指標を追跡し、進捗状況を確認し、期限に対する範囲を把握します。",
+  get_snapshot_of_each_active_cycle_description: "すべてのアクティブサイクルの主要な指標を追跡し、進捗状況を確認し、期限に対する範囲を把握します。",
   compare_burndowns: "バーンダウンを比較",
   compare_burndowns_description: "各サイクルのバーンダウンレポートを確認して、各チームのパフォーマンスを監視します。",
   quickly_see_make_or_break_issues: "重要な作業項目をすぐに確認",
-  quickly_see_make_or_break_issues_description:
-    "期限に対する各サイクルの優先度の高い作業項目をプレビューします。ワンクリックでサイクルごとにすべての項目を確認できます。",
+  quickly_see_make_or_break_issues_description: "期限に対する各サイクルの優先度の高い作業項目をプレビューします。ワンクリックでサイクルごとにすべての項目を確認できます。",
   zoom_into_cycles_that_need_attention: "注意が必要なサイクルにズームイン",
   zoom_into_cycles_that_need_attention_description: "期待に沿わないサイクルの状態をワンクリックで調査します。",
   stay_ahead_of_blockers: "ブロッカーに先手を打つ",
-  stay_ahead_of_blockers_description:
-    "プロジェクト間の課題を特定し、他のビューでは明らかでないサイクル間の依存関係を確認します。",
+  stay_ahead_of_blockers_description: "プロジェクト間の課題を特定し、他のビューでは明らかでないサイクル間の依存関係を確認します。",
   analytics: "アナリティクス",
   workspace_invites: "ワークスペースの招待",
   enter_god_mode: "ゴッドモードに入る",
@@ -324,8 +315,7 @@ export default {
   create_project: "プロジェクトを作成",
   failed_to_remove_project_from_favorites: "プロジェクトをお気に入りから削除できませんでした。もう一度お試しください。",
   project_created_successfully: "プロジェクトが正常に作成されました",
-  project_created_successfully_description:
-    "プロジェクトが正常に作成されました。作業項目を追加できるようになりました。",
+  project_created_successfully_description: "プロジェクトが正常に作成されました。作業項目を追加できるようになりました。",
   project_name_already_taken: "プロジェクト名は既に使用されています。",
   project_identifier_already_taken: "プロジェクト識別子は既に使用されています。",
   project_cover_image_alt: "プロジェクトのカバー画像",
@@ -357,8 +347,7 @@ export default {
   couldnt_add_the_project_to_favorites: "プロジェクトをお気に入りに追加できませんでした。もう一度お試しください。",
   removing_project_from_favorites: "プロジェクトをお気に入りから削除中",
   project_removed_from_favorites: "プロジェクトがお気に入りから削除されました",
-  couldnt_remove_the_project_from_favorites:
-    "プロジェクトをお気に入りから削除できませんでした。もう一度お試しください。",
+  couldnt_remove_the_project_from_favorites: "プロジェクトをお気に入りから削除できませんでした。もう一度お試しください。",
   add_to_favorites: "お気に入りに追加",
   remove_from_favorites: "お気に入りから削除",
   publish_project: "プロジェクトを公開",
@@ -378,13 +367,11 @@ export default {
   work_management: "作業管理",
   projects_and_issues: "プロジェクトと作業項目",
   projects_and_issues_description: "このプロジェクトでオン/オフを切り替えます。",
-  cycles_description:
-    "プロジェクトごとに作業の時間枠を設定し、必要に応じて期間を調整します。1サイクルは2週間、次は1週間でもかまいません。",
+  cycles_description: "プロジェクトごとに作業の時間枠を設定し、必要に応じて期間を調整します。1サイクルは2週間、次は1週間でもかまいません。",
   modules_description: "専任のリーダーと担当者を持つサブプロジェクトに作業を整理します。",
   views_description: "カスタムの並び替え、フィルター、表示オプションを保存するか、チームと共有します。",
   pages_description: "自由形式のコンテンツを作成・編集できます。メモ、ドキュメント、何でもOKです。",
-  intake_description:
-    "非メンバーがバグ、フィードバック、提案を共有できるようにし、ワークフローを妨げないようにします。",
+  intake_description: "非メンバーがバグ、フィードバック、提案を共有できるようにし、ワークフローを妨げないようにします。",
   time_tracking_description: "作業項目やプロジェクトに費やした時間を記録します。",
   work_management_description: "作業とプロジェクトを簡単に管理します。",
   documentation: "ドキュメント",
@@ -404,8 +391,7 @@ export default {
   discord: "Discord",
   powered_by_plane_pages: "Powered by Plane Pages",
   please_select_at_least_one_invitation: "少なくとも1つの招待を選択してください。",
-  please_select_at_least_one_invitation_description:
-    "ワークスペースに参加するには少なくとも1つの招待を選択してください。",
+  please_select_at_least_one_invitation_description: "ワークスペースに参加するには少なくとも1つの招待を選択してください。",
   we_see_that_someone_has_invited_you_to_join_a_workspace: "誰かがあなたをワークスペースに招待しています",
   join_a_workspace: "ワークスペースに参加",
   we_see_that_someone_has_invited_you_to_join_a_workspace_description: "誰かがあなたをワークスペースに招待しています",
@@ -417,8 +403,7 @@ export default {
   back_to_home: "ホームに戻る",
   workspace_name: "ワークスペース名",
   deactivate_your_account: "アカウントを無効化",
-  deactivate_your_account_description:
-    "無効化すると、作業項目を割り当てられなくなり、ワークスペースの請求対象外となります。アカウントを再有効化するには、このメールアドレスでワークスペースへの招待が必要です。",
+  deactivate_your_account_description: "無効化すると、作業項目を割り当てられなくなり、ワークスペースの請求対象外となります。アカウントを再有効化するには、このメールアドレスでワークスペースへの招待が必要です。",
   deactivating: "無効化中",
   confirm: "確認",
   confirming: "確認中",
@@ -1255,8 +1240,7 @@ export default {
       },
       sidebar_filter: {
         title: "一致する作業項目がありません",
-        description:
-          "インテークに適用されたフィルターに一致する作業項目がありません。新しい作業項目を作成してください。",
+        description: "インテークに適用されたフィルターに一致する作業項目がありません。新しい作業項目を作成してください。",
       },
       detail: {
         title: "詳細を表示する作業項目を選択してください。",
@@ -1284,8 +1268,7 @@ export default {
     errors: {
       creation_disabled: {
         title: "インスタンス管理者のみがワークスペースを作成できます",
-        description:
-          "インスタンス管理者のメールアドレスをご存知の場合は、下のボタンをクリックして連絡を取ってください。",
+        description: "インスタンス管理者のメールアドレスをご存知の場合は、下のボタンをクリックして連絡を取ってください。",
         request_button: "インスタンス管理者にリクエスト",
       },
       validation: {
@@ -1319,8 +1302,7 @@ export default {
     empty_state: {
       general: {
         title: "プロジェクト、アクティビティ、メトリクスの概要",
-        description:
-          "Planeへようこそ。ご利用いただき嬉しく思います。最初のプロジェクトを作成して作業項目を追跡すると、このページは進捗を把握するのに役立つスペースに変わります。管理者はチームの進捗に役立つ項目も表示されます。",
+        description: "Planeへようこそ。ご利用いただき嬉しく思います。最初のプロジェクトを作成して作業項目を追跡すると、このページは進捗を把握するのに役立つスペースに変わります。管理者はチームの進捗に役立つ項目も表示されます。",
         primary_button: {
           text: "最初のプロジェクトを作成",
           comic: {
@@ -1376,14 +1358,12 @@ export default {
       },
       general: {
         title: "進捗、ワークロード、割り当てを追跡する。傾向を発見し、障害を除去し、作業をより迅速に進める",
-        description:
-          "範囲と需要、見積もり、スコープクリープを確認する。チームメンバーとチームのパフォーマンスを把握し、プロジェクトが時間通りに実行されることを確実にする。",
+        description: "範囲と需要、見積もり、スコープクリープを確認する。チームメンバーとチームのパフォーマンスを把握し、プロジェクトが時間通りに実行されることを確実にする。",
         primary_button: {
           text: "最初のプロジェクトを開始",
           comic: {
             title: "アナリティクスはサイクル + モジュールで最もよく機能します",
-            description:
-              "まず、作業項目をサイクルに時間枠を設定し、可能であれば、複数のサイクルにまたがる作業項目をモジュールにグループ化してください。左側のナビゲーションで両方をチェックしてください。",
+            description: "まず、作業項目をサイクルに時間枠を設定し、可能であれば、複数のサイクルにまたがる作業項目をモジュールにグループ化してください。左側のナビゲーションで両方をチェックしてください。",
           },
         },
       },
@@ -1451,8 +1431,7 @@ export default {
     empty_state: {
       general: {
         title: "アクティブなプロジェクトがありません",
-        description:
-          "各プロジェクトは目標指向の作業の親として考えてください。プロジェクトには作業、サイクル、モジュールが含まれ、同僚と共にその目標の達成を支援します。新しいプロジェクトを作成するか、アーカイブされたプロジェクトをフィルタリングしてください。",
+        description: "各プロジェクトは目標指向の作業の親として考えてください。プロジェクトには作業、サイクル、モジュールが含まれ、同僚と共にその目標の達成を支援します。新しいプロジェクトを作成するか、アーカイブされたプロジェクトをフィルタリングしてください。",
         primary_button: {
           text: "最初のプロジェクトを開始",
           comic: {
@@ -1463,8 +1442,7 @@ export default {
       },
       no_projects: {
         title: "プロジェクトがありません",
-        description:
-          "作業項目を作成したり作業を管理したりするには、プロジェクトを作成するか、プロジェクトのメンバーになる必要があります。",
+        description: "作業項目を作成したり作業を管理したりするには、プロジェクトを作成するか、プロジェクトのメンバーになる必要があります。",
         primary_button: {
           text: "最初のプロジェクトを開始",
           comic: {
@@ -1517,8 +1495,7 @@ export default {
     },
     delete_view: {
       title: "このビューを削除してもよろしいですか？",
-      content:
-        "確認すると、このビューに選択したすべてのソート、フィルター、表示オプション + レイアウトが復元不可能な形で完全に削除されます。",
+      content: "確認すると、このビューに選択したすべてのソート、フィルター、表示オプション + レイアウトが復元不可能な形で完全に削除されます。",
     },
   },
   account_settings: {
@@ -1566,8 +1543,7 @@ export default {
     label: "ワークスペース設定",
     page_label: "{workspace} - 一般設定",
     key_created: "キーが作成されました",
-    copy_key:
-      "このシークレットキーをコピーしてPlaneページに保存してください。閉じた後はこのキーを見ることができません。キーを含むCSVファイルがダウンロードされました。",
+    copy_key: "このシークレットキーをコピーしてPlaneページに保存してください。閉じた後はこのキーを見ることができません。キーを含むCSVファイルがダウンロードされました。",
     token_copied: "トークンがクリップボードにコピーされました。",
     settings: {
       general: {
@@ -1579,8 +1555,7 @@ export default {
         url: "ワークスペースURL",
         update_workspace: "ワークスペースを更新",
         delete_workspace: "このワークスペースを削除",
-        delete_workspace_description:
-          "ワークスペースを削除すると、そのワークスペース内のすべてのデータとリソースが完全に削除され、復元することはできません。",
+        delete_workspace_description: "ワークスペースを削除すると、そのワークスペース内のすべてのデータとリソースが完全に削除され、復元することはできません。",
         delete_btn: "このワークスペースを削除",
         delete_modal: {
           title: "このワークスペースを削除してもよろしいですか？",
@@ -1608,8 +1583,7 @@ export default {
         add_member: "メンバーを追加",
         pending_invites: "保留中の招待",
         invitations_sent_successfully: "招待が正常に送信されました",
-        leave_confirmation:
-          "ワークスペースから退出してもよろしいですか？このワークスペースにアクセスできなくなります。この操作は取り消せません。",
+        leave_confirmation: "ワークスペースから退出してもよろしいですか？このワークスペースにアクセスできなくなります。この操作は取り消せません。",
         details: {
           full_name: "フルネーム",
           display_name: "表示名",
@@ -1716,8 +1690,7 @@ export default {
         generating: "生成中",
         delete: {
           title: "APIトークンを削除",
-          description:
-            "このトークンを使用しているアプリケーションはPlaneのデータにアクセスできなくなります。この操作は取り消せません。",
+          description: "このトークンを使用しているアプリケーションはPlaneのデータにアクセスできなくなります。この操作は取り消せません。",
           success: {
             title: "成功！",
             message: "APIトークンが正常に削除されました",
@@ -1732,8 +1705,7 @@ export default {
     empty_state: {
       api_tokens: {
         title: "APIトークンがまだ作成されていません",
-        description:
-          "PlaneのAPIを使用して、Planeのデータを外部システムと統合できます。トークンを作成して始めましょう。",
+        description: "PlaneのAPIを使用して、Planeのデータを外部システムと統合できます。トークンを作成して始めましょう。",
       },
       webhooks: {
         title: "Webhookが追加されていません",
@@ -1795,8 +1767,7 @@ export default {
     empty_state: {
       activity: {
         title: "アクティビティがまだありません",
-        description:
-          "新しい作業項目を作成して始めましょう！詳細とプロパティを追加してください。Planeをさらに探索してアクティビティを確認しましょう。",
+        description: "新しい作業項目を作成して始めましょう！詳細とプロパティを追加してください。Planeをさらに探索してアクティビティを確認しましょう。",
       },
       assigned: {
         title: "割り当てられた作業項目がありません",
@@ -1818,14 +1789,12 @@ export default {
       please_select_a_timezone: "タイムゾーンを選択してください",
       archive_project: {
         title: "プロジェクトをアーカイブ",
-        description:
-          "プロジェクトをアーカイブすると、サイドナビゲーションから非表示になりますが、プロジェクトページからアクセスすることはできます。プロジェクトを復元または削除することもできます。",
+        description: "プロジェクトをアーカイブすると、サイドナビゲーションから非表示になりますが、プロジェクトページからアクセスすることはできます。プロジェクトを復元または削除することもできます。",
         button: "プロジェクトをアーカイブ",
       },
       delete_project: {
         title: "プロジェクトを削除",
-        description:
-          "プロジェクトを削除すると、そのプロジェクト内のすべてのデータとリソースが永久に削除され、復元できなくなります。",
+        description: "プロジェクトを削除すると、そのプロジェクト内のすべてのデータとリソースが永久に削除され、復元できなくなります。",
         button: "プロジェクトを削除",
       },
       toast: {
@@ -2056,16 +2025,14 @@ export default {
           title: "エラー！",
         },
         error: {
-          already_exists:
-            "指定した日付のサイクルは既に存在します。下書きサイクルを作成する場合は、両方の日付を削除してください。",
+          already_exists: "指定した日付のサイクルは既に存在します。下書きサイクルを作成する場合は、両方の日付を削除してください。",
         },
       },
     },
     empty_state: {
       general: {
         title: "サイクルで作業をグループ化してタイムボックス化します。",
-        description:
-          "作業をタイムボックス化された単位に分割し、プロジェクトの期限から逆算して日付を設定し、チームとして具体的な進捗を作ります。",
+        description: "作業をタイムボックス化された単位に分割し、プロジェクトの期限から逆算して日付を設定し、チームとして具体的な進捗を作ります。",
         primary_button: {
           text: "最初のサイクルを設定",
           comic: {
@@ -2086,18 +2053,15 @@ export default {
       },
       completed_no_issues: {
         title: "サイクルに作業項目がありません",
-        description:
-          "サイクルに作業項目がありません。作業項目は転送されたか非表示になっています。非表示の作業項目がある場合は、表示プロパティを更新して確認してください。",
+        description: "サイクルに作業項目がありません。作業項目は転送されたか非表示になっています。非表示の作業項目がある場合は、表示プロパティを更新して確認してください。",
       },
       active: {
         title: "アクティブなサイクルがありません",
-        description:
-          "アクティブなサイクルには、その期間内に今日の日付が含まれるものが該当します。アクティブなサイクルの進捗と詳細をここで確認できます。",
+        description: "アクティブなサイクルには、その期間内に今日の日付が含まれるものが該当します。アクティブなサイクルの進捗と詳細をここで確認できます。",
       },
       archived: {
         title: "アーカイブされたサイクルがまだありません",
-        description:
-          "プロジェクトを整理するために、完了したサイクルをアーカイブします。アーカイブ後はここで確認できます。",
+        description: "プロジェクトを整理するために、完了したサイクルをアーカイブします。アーカイブ後はここで確認できます。",
       },
     },
   },
@@ -2105,21 +2069,18 @@ export default {
     empty_state: {
       no_issues: {
         title: "作業項目を作成して誰かに割り当てましょう。自分自身でも構いません",
-        description:
-          "作業項目は、仕事、タスク、作業、またはJTBD（私たちが好む用語）と考えてください。作業項目とそのサブ作業項目は通常、チームメンバーに割り当てられる時間ベースのアクションアイテムです。チームは作業項目を作成、割り当て、完了することでプロジェクトの目標に向かって進みます。",
+        description: "作業項目は、仕事、タスク、作業、またはJTBD（私たちが好む用語）と考えてください。作業項目とそのサブ作業項目は通常、チームメンバーに割り当てられる時間ベースのアクションアイテムです。チームは作業項目を作成、割り当て、完了することでプロジェクトの目標に向かって進みます。",
         primary_button: {
           text: "最初の作業項目を作成",
           comic: {
             title: "作業項目はPlaneの構成要素です。",
-            description:
-              "PlaneのUIの再設計、会社のリブランド、新しい燃料噴射システムの立ち上げなどは、サブ作業項目を持つ可能性が高い作業項目の例です。",
+            description: "PlaneのUIの再設計、会社のリブランド、新しい燃料噴射システムの立ち上げなどは、サブ作業項目を持つ可能性が高い作業項目の例です。",
           },
         },
       },
       no_archived_issues: {
         title: "アーカイブされた作業項目がまだありません",
-        description:
-          "手動または自動化を通じて、完了またはキャンセルされた作業項目をアーカイブできます。アーカイブ後はここで確認できます。",
+        description: "手動または自動化を通じて、完了またはキャンセルされた作業項目をアーカイブできます。アーカイブ後はここで確認できます。",
         primary_button: {
           text: "自動化を設定",
         },
@@ -2142,8 +2103,7 @@ export default {
     empty_state: {
       general: {
         title: "プロジェクトのマイルストーンをモジュールにマッピングし、集計された作業を簡単に追跡できます。",
-        description:
-          "論理的で階層的な親に属する作業項目のグループがモジュールを形成します。プロジェクトのマイルストーンで作業を追跡する方法として考えてください。期間や期限があり、マイルストーンまでの進捗状況を確認できる分析機能も備えています。",
+        description: "論理的で階層的な親に属する作業項目のグループがモジュールを形成します。プロジェクトのマイルストーンで作業を追跡する方法として考えてください。期間や期限があり、マイルストーンまでの進捗状況を確認できる分析機能も備えています。",
         primary_button: {
           text: "最初のモジュールを作成",
           comic: {
@@ -2164,8 +2124,7 @@ export default {
       },
       archived: {
         title: "アーカイブされたモジュールがまだありません",
-        description:
-          "プロジェクトを整理するために、完了またはキャンセルされたモジュールをアーカイブします。アーカイブ後はここで確認できます。",
+        description: "プロジェクトを整理するために、完了またはキャンセルされたモジュールをアーカイブします。アーカイブ後はここで確認できます。",
       },
       sidebar: {
         in_active: "このモジュールはまだアクティブではありません。",
@@ -2191,8 +2150,7 @@ export default {
     empty_state: {
       general: {
         title: "プロジェクトのフィルター付きビューを保存します。必要な数だけ作成できます",
-        description:
-          "ビューは、頻繁に使用するフィルターや簡単にアクセスしたいフィルターの集合です。プロジェクト内のすべての同僚が全員のビューを確認でき、自分のニーズに最も合うものを選択できます。",
+        description: "ビューは、頻繁に使用するフィルターや簡単にアクセスしたいフィルターの集合です。プロジェクト内のすべての同僚が全員のビューを確認でき、自分のニーズに最も合うものを選択できます。",
         primary_button: {
           text: "最初のビューを作成",
           comic: {
@@ -2208,25 +2166,21 @@ export default {
     },
     delete_view: {
       title: "このビューを削除してもよろしいですか？",
-      content:
-        "確認すると、このビューに選択したすべてのソート、フィルター、表示オプション + レイアウトが復元不可能な形で完全に削除されます。",
+      content: "確認すると、このビューに選択したすべてのソート、フィルター、表示オプション + レイアウトが復元不可能な形で完全に削除されます。",
     },
   },
   project_page: {
     empty_state: {
       general: {
-        title:
-          "メモ、ドキュメント、または完全なナレッジベースを作成しましょう。PlaneのAIアシスタントGalileoが開始をサポートします",
-        description:
-          "ページはPlaneの思考整理スペースです。会議のメモを取り、簡単に整形し、作業項目を埋め込み、コンポーネントライブラリを使用してレイアウトし、すべてをプロジェクトのコンテキストに保存できます。ドキュメントを素早く作成するには、ショートカットまたはボタンのクリックでPlaneのAI、Galileoを呼び出してください。",
+        title: "メモ、ドキュメント、または完全なナレッジベースを作成しましょう。PlaneのAIアシスタントGalileoが開始をサポートします",
+        description: "ページはPlaneの思考整理スペースです。会議のメモを取り、簡単に整形し、作業項目を埋め込み、コンポーネントライブラリを使用してレイアウトし、すべてをプロジェクトのコンテキストに保存できます。ドキュメントを素早く作成するには、ショートカットまたはボタンのクリックでPlaneのAI、Galileoを呼び出してください。",
         primary_button: {
           text: "最初のページを作成",
         },
       },
       private: {
         title: "プライベートページがまだありません",
-        description:
-          "プライベートな考えをここに保存しましょう。共有する準備ができたら、チームはクリック一つで共有できます。",
+        description: "プライベートな考えをここに保存しましょう。共有する準備ができたら、チームはクリック一つで共有できます。",
         primary_button: {
           text: "最初のページを作成",
         },
@@ -2348,40 +2302,35 @@ export default {
     empty_state: {
       inbox: {
         title: "インテークがプロジェクトで有効になっていません。",
-        description:
-          "インテークは、プロジェクトへの受信リクエストを管理し、ワークフローに作業項目として追加するのに役立ちます。リクエストを管理するには、プロジェクト設定でインテークを有効にしてください。",
+        description: "インテークは、プロジェクトへの受信リクエストを管理し、ワークフローに作業項目として追加するのに役立ちます。リクエストを管理するには、プロジェクト設定でインテークを有効にしてください。",
         primary_button: {
           text: "機能を管理",
         },
       },
       cycle: {
         title: "サイクルがこのプロジェクトで有効になっていません。",
-        description:
-          "時間枠で作業を分割し、プロジェクトの期限から逆算して日付を設定し、チームとして具体的な進捗を作ります。サイクルを使用するには、プロジェクトでサイクル機能を有効にしてください。",
+        description: "時間枠で作業を分割し、プロジェクトの期限から逆算して日付を設定し、チームとして具体的な進捗を作ります。サイクルを使用するには、プロジェクトでサイクル機能を有効にしてください。",
         primary_button: {
           text: "機能を管理",
         },
       },
       module: {
         title: "モジュールがプロジェクトで有効になっていません。",
-        description:
-          "モジュールはプロジェクトの構成要素です。モジュールを使用するには、プロジェクト設定でモジュールを有効にしてください。",
+        description: "モジュールはプロジェクトの構成要素です。モジュールを使用するには、プロジェクト設定でモジュールを有効にしてください。",
         primary_button: {
           text: "機能を管理",
         },
       },
       page: {
         title: "ページがプロジェクトで有効になっていません。",
-        description:
-          "ページはプロジェクトの構成要素です。ページを使用するには、プロジェクト設定でページを有効にしてください。",
+        description: "ページはプロジェクトの構成要素です。ページを使用するには、プロジェクト設定でページを有効にしてください。",
         primary_button: {
           text: "機能を管理",
         },
       },
       view: {
         title: "ビューがプロジェクトで有効になっていません。",
-        description:
-          "ビューはプロジェクトの構成要素です。ビューを使用するには、プロジェクト設定でビューを有効にしてください。",
+        description: "ビューはプロジェクトの構成要素です。ビューを使用するには、プロジェクト設定でビューを有効にしてください。",
         primary_button: {
           text: "機能を管理",
         },
@@ -2415,15 +2364,13 @@ export default {
     title: "あなたの付箋",
     placeholder: "ここをクリックして入力",
     all: "すべての付箋",
-    "no-data":
-      "アイデアをメモしたり、ひらめきをキャプチャしたり、閃きを記録したりしましょう。付箋を追加して始めましょう。",
+    "no-data": "アイデアをメモしたり、ひらめきをキャプチャしたり、閃きを記録したりしましょう。付箋を追加して始めましょう。",
     add: "付箋を追加",
     search_placeholder: "タイトルで検索",
     delete: "付箋を削除",
     delete_confirmation: "この付箋を削除してもよろしいですか？",
     empty_state: {
-      simple:
-        "アイデアをメモしたり、ひらめきをキャプチャしたり、閃きを記録したりしましょう。付箋を追加して始めましょう。",
+      simple: "アイデアをメモしたり、ひらめきをキャプチャしたり、閃きを記録したりしましょう。付箋を追加して始めましょう。",
       general: {
         title: "付箋は、その場で素早く取るメモやToDoです。",
         description: "いつでもどこからでもアクセスできる付箋を作成して、思考やアイデアを簡単にキャプチャできます。",
@@ -2593,10 +2540,8 @@ export default {
     edited_by: "編集者",
   },
   self_hosted_maintenance_message: {
-    plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start:
-      "Planeが起動しませんでした。これは1つまたは複数のPlaneサービスの起動に失敗したことが原因である可能性があります。",
-    choose_view_logs_from_setup_sh_and_docker_logs_to_be_sure:
-      "setup.shとDockerログからView Logsを選択して確認してください。",
+    plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start: "Planeが起動しませんでした。これは1つまたは複数のPlaneサービスの起動に失敗したことが原因である可能性があります。",
+    choose_view_logs_from_setup_sh_and_docker_logs_to_be_sure: "setup.shとDockerログからView Logsを選択して確認してください。",
   },
   page_navigation_pane: {
     tabs: {
@@ -2637,4 +2582,7 @@ export default {
     close_button: "ナビゲーションパネルを閉じる",
     outline_floating_button: "アウトラインを開く",
   },
+  glott_test_a: "プルリクエストごとに自動翻訳。",
+  glott_test_b: "すべての言語でカバレッジを維持。",
+  glott_test_c: "既存のスタックに変更なし。",
 } as const;

@@ -133,19 +133,16 @@ export default {
     },
     forgot_password: {
       title: "Restablecer tu contraseña",
-      description:
-        "Ingresa la dirección de correo electrónico verificada de tu cuenta de usuario y te enviaremos un enlace para restablecer la contraseña.",
+      description: "Ingresa la dirección de correo electrónico verificada de tu cuenta de usuario y te enviaremos un enlace para restablecer la contraseña.",
       email_sent: "Enviamos el enlace de restablecimiento a tu dirección de correo electrónico",
       send_reset_link: "Enviar enlace de restablecimiento",
       errors: {
-        smtp_not_enabled:
-          "Vemos que tu administrador no ha habilitado SMTP, no podremos enviar un enlace para restablecer la contraseña",
+        smtp_not_enabled: "Vemos que tu administrador no ha habilitado SMTP, no podremos enviar un enlace para restablecer la contraseña",
       },
       toast: {
         success: {
           title: "Correo enviado",
-          message:
-            "Revisa tu bandeja de entrada para encontrar un enlace para restablecer tu contraseña. Si no aparece en unos minutos, revisa tu carpeta de spam.",
+          message: "Revisa tu bandeja de entrada para encontrar un enlace para restablecer tu contraseña. Si no aparece en unos minutos, revisa tu carpeta de spam.",
         },
         error: {
           title: "¡Error!",
@@ -209,8 +206,7 @@ export default {
   saving: "Guardando",
   save_changes: "Guardar cambios",
   deactivate_account: "Desactivar cuenta",
-  deactivate_account_description:
-    "Al desactivar una cuenta, todos los datos y recursos dentro de esa cuenta se eliminarán permanentemente y no se podrán recuperar.",
+  deactivate_account_description: "Al desactivar una cuenta, todos los datos y recursos dentro de esa cuenta se eliminarán permanentemente y no se podrán recuperar.",
   profile_settings: "Configuración del perfil",
   your_account: "Tu cuenta",
   security: "Seguridad",
@@ -254,16 +250,12 @@ export default {
   theme_updated_successfully: "Tema actualizado exitosamente",
   failed_to_update_the_theme: "Error al actualizar el tema",
   email_notifications: "Notificaciones por correo electrónico",
-  stay_in_the_loop_on_issues_you_are_subscribed_to_enable_this_to_get_notified:
-    "Mantente al tanto de los elementos de trabajo a los que estás suscrito. Activa esto para recibir notificaciones.",
-  email_notification_setting_updated_successfully:
-    "Configuración de notificaciones por correo electrónico actualizada exitosamente",
-  failed_to_update_email_notification_setting:
-    "Error al actualizar la configuración de notificaciones por correo electrónico",
+  stay_in_the_loop_on_issues_you_are_subscribed_to_enable_this_to_get_notified: "Mantente al tanto de los elementos de trabajo a los que estás suscrito. Activa esto para recibir notificaciones.",
+  email_notification_setting_updated_successfully: "Configuración de notificaciones por correo electrónico actualizada exitosamente",
+  failed_to_update_email_notification_setting: "Error al actualizar la configuración de notificaciones por correo electrónico",
   notify_me_when: "Notificarme cuando",
   property_changes: "Cambios de propiedades",
-  property_changes_description:
-    "Notificarme cuando cambien las propiedades de los elementos de trabajo como asignados, prioridad, estimaciones o cualquier otra cosa.",
+  property_changes_description: "Notificarme cuando cambien las propiedades de los elementos de trabajo como asignados, prioridad, estimaciones o cualquier otra cosa.",
   state_change: "Cambio de estado",
   state_change_description: "Notificarme cuando los elementos de trabajo se muevan a un estado diferente",
   issue_completed: "Elemento de trabajo completado",
@@ -277,28 +269,21 @@ export default {
   sign_out: "Cerrar sesión",
   signing_out: "Cerrando sesión",
   active_cycles: "Ciclos activos",
-  active_cycles_description:
-    "Monitorea ciclos en todos los proyectos, rastrea elementos de trabajo de alta prioridad y enfócate en los ciclos que necesitan atención.",
+  active_cycles_description: "Monitorea ciclos en todos los proyectos, rastrea elementos de trabajo de alta prioridad y enfócate en los ciclos que necesitan atención.",
   on_demand_snapshots_of_all_your_cycles: "Instantáneas bajo demanda de todos tus ciclos",
   upgrade: "Actualizar",
   "10000_feet_view": "Vista panorámica de todos los ciclos activos.",
-  "10000_feet_view_description":
-    "Aléjate para ver los ciclos en ejecución en todos tus proyectos a la vez en lugar de ir de Ciclo en Ciclo en cada proyecto.",
+  "10000_feet_view_description": "Aléjate para ver los ciclos en ejecución en todos tus proyectos a la vez en lugar de ir de Ciclo en Ciclo en cada proyecto.",
   get_snapshot_of_each_active_cycle: "Obtén una instantánea de cada ciclo activo.",
-  get_snapshot_of_each_active_cycle_description:
-    "Rastrea métricas de alto nivel para todos los ciclos activos, ve su estado de progreso y obtén una idea del alcance contra los plazos.",
+  get_snapshot_of_each_active_cycle_description: "Rastrea métricas de alto nivel para todos los ciclos activos, ve su estado de progreso y obtén una idea del alcance contra los plazos.",
   compare_burndowns: "Compara los burndowns.",
-  compare_burndowns_description:
-    "Monitorea cómo se está desempeñando cada uno de tus equipos con un vistazo al informe de burndown de cada ciclo.",
+  compare_burndowns_description: "Monitorea cómo se está desempeñando cada uno de tus equipos con un vistazo al informe de burndown de cada ciclo.",
   quickly_see_make_or_break_issues: "Ve rápidamente los elementos de trabajo críticos.",
-  quickly_see_make_or_break_issues_description:
-    "Previsualiza elementos de trabajo de alta prioridad para cada ciclo contra fechas de vencimiento. Vélos todos por ciclo con un clic.",
+  quickly_see_make_or_break_issues_description: "Previsualiza elementos de trabajo de alta prioridad para cada ciclo contra fechas de vencimiento. Vélos todos por ciclo con un clic.",
   zoom_into_cycles_that_need_attention: "Enfócate en los ciclos que necesitan atención.",
-  zoom_into_cycles_that_need_attention_description:
-    "Investiga el estado de cualquier ciclo que no se ajuste a las expectativas con un clic.",
+  zoom_into_cycles_that_need_attention_description: "Investiga el estado de cualquier ciclo que no se ajuste a las expectativas con un clic.",
   stay_ahead_of_blockers: "Mantente adelante de los bloqueadores.",
-  stay_ahead_of_blockers_description:
-    "Detecta desafíos de un proyecto a otro y ve dependencias entre ciclos que no son obvias desde ninguna otra vista.",
+  stay_ahead_of_blockers_description: "Detecta desafíos de un proyecto a otro y ve dependencias entre ciclos que no son obvias desde ninguna otra vista.",
   analytics: "Análisis",
   workspace_invites: "Invitaciones al espacio de trabajo",
   enter_god_mode: "Entrar en modo dios",
@@ -330,11 +315,9 @@ export default {
   link_copied: "Enlace copiado",
   add_project: "Agregar proyecto",
   create_project: "Crear proyecto",
-  failed_to_remove_project_from_favorites:
-    "No se pudo eliminar el proyecto de favoritos. Por favor, inténtalo de nuevo.",
+  failed_to_remove_project_from_favorites: "No se pudo eliminar el proyecto de favoritos. Por favor, inténtalo de nuevo.",
   project_created_successfully: "Proyecto creado exitosamente",
-  project_created_successfully_description:
-    "Proyecto creado exitosamente. Ahora puedes comenzar a agregar elementos de trabajo.",
+  project_created_successfully_description: "Proyecto creado exitosamente. Ahora puedes comenzar a agregar elementos de trabajo.",
   project_name_already_taken: "El nombre del proyecto ya está en uso.",
   project_identifier_already_taken: "El identificador del proyecto ya está en uso.",
   project_cover_image_alt: "Imagen de portada del proyecto",
@@ -344,8 +327,7 @@ export default {
   project_id_must_be_at_least_1_character: "El ID del proyecto debe tener al menos 1 carácter",
   project_id_must_be_at_most_5_characters: "El ID del proyecto debe tener como máximo 5 caracteres",
   project_id: "ID del proyecto",
-  project_id_tooltip_content:
-    "Te ayuda a identificar elementos de trabajo en el proyecto de manera única. Máximo 10 caracteres.",
+  project_id_tooltip_content: "Te ayuda a identificar elementos de trabajo en el proyecto de manera única. Máximo 10 caracteres.",
   description_placeholder: "Descripción",
   only_alphanumeric_non_latin_characters_allowed: "Solo se permiten caracteres alfanuméricos y no latinos.",
   project_id_is_required: "El ID del proyecto es requerido",
@@ -367,8 +349,7 @@ export default {
   couldnt_add_the_project_to_favorites: "No se pudo agregar el proyecto a favoritos. Por favor, inténtalo de nuevo.",
   removing_project_from_favorites: "Eliminando proyecto de favoritos",
   project_removed_from_favorites: "Proyecto eliminado de favoritos",
-  couldnt_remove_the_project_from_favorites:
-    "No se pudo eliminar el proyecto de favoritos. Por favor, inténtalo de nuevo.",
+  couldnt_remove_the_project_from_favorites: "No se pudo eliminar el proyecto de favoritos. Por favor, inténtalo de nuevo.",
   add_to_favorites: "Agregar a favoritos",
   remove_from_favorites: "Eliminar de favoritos",
   publish_project: "Publicar proyecto",
@@ -388,14 +369,11 @@ export default {
   work_management: "Gestión del trabajo",
   projects_and_issues: "Proyectos y elementos de trabajo",
   projects_and_issues_description: "Activa o desactiva estos en este proyecto.",
-  cycles_description:
-    "Organiza el trabajo por proyecto en períodos de tiempo y ajusta la duración según sea necesario. Un ciclo puede ser de 2 semanas y el siguiente de 1 semana.",
+  cycles_description: "Organiza el trabajo por proyecto en períodos de tiempo y ajusta la duración según sea necesario. Un ciclo puede ser de 2 semanas y el siguiente de 1 semana.",
   modules_description: "Organiza el trabajo en subproyectos con líderes y responsables dedicados.",
-  views_description:
-    "Guarda ordenamientos, filtros y opciones de visualización personalizadas o compártelos con tu equipo.",
+  views_description: "Guarda ordenamientos, filtros y opciones de visualización personalizadas o compártelos con tu equipo.",
   pages_description: "Crea y edita contenido libre; notas, documentos, lo que sea.",
-  intake_description:
-    "Permite que personas ajenas al equipo compartan errores, comentarios y sugerencias sin interrumpir tu flujo de trabajo.",
+  intake_description: "Permite que personas ajenas al equipo compartan errores, comentarios y sugerencias sin interrumpir tu flujo de trabajo.",
   time_tracking_description: "Registra el tiempo dedicado a elementos de trabajo y proyectos.",
   work_management_description: "Gestiona tu trabajo y proyectos con facilidad.",
   documentation: "Documentación",
@@ -415,24 +393,19 @@ export default {
   discord: "Discord",
   powered_by_plane_pages: "Desarrollado por Plane Pages",
   please_select_at_least_one_invitation: "Por favor selecciona al menos una invitación.",
-  please_select_at_least_one_invitation_description:
-    "Por favor selecciona al menos una invitación para unirte al espacio de trabajo.",
-  we_see_that_someone_has_invited_you_to_join_a_workspace:
-    "Vemos que alguien te ha invitado a unirte a un espacio de trabajo",
+  please_select_at_least_one_invitation_description: "Por favor selecciona al menos una invitación para unirte al espacio de trabajo.",
+  we_see_that_someone_has_invited_you_to_join_a_workspace: "Vemos que alguien te ha invitado a unirte a un espacio de trabajo",
   join_a_workspace: "Únete a un espacio de trabajo",
-  we_see_that_someone_has_invited_you_to_join_a_workspace_description:
-    "Vemos que alguien te ha invitado a unirte a un espacio de trabajo",
+  we_see_that_someone_has_invited_you_to_join_a_workspace_description: "Vemos que alguien te ha invitado a unirte a un espacio de trabajo",
   join_a_workspace_description: "Únete a un espacio de trabajo",
   accept_and_join: "Aceptar y unirse",
   go_home: "Ir a inicio",
   no_pending_invites: "No hay invitaciones pendientes",
-  you_can_see_here_if_someone_invites_you_to_a_workspace:
-    "Puedes ver aquí si alguien te invita a un espacio de trabajo",
+  you_can_see_here_if_someone_invites_you_to_a_workspace: "Puedes ver aquí si alguien te invita a un espacio de trabajo",
   back_to_home: "Volver a inicio",
   workspace_name: "nombre-del-espacio-de-trabajo",
   deactivate_your_account: "Desactivar tu cuenta",
-  deactivate_your_account_description:
-    "Una vez desactivada, no se te podrán asignar elementos de trabajo ni se te facturará por tu espacio de trabajo. Para reactivar tu cuenta, necesitarás una invitación a un espacio de trabajo con esta dirección de correo electrónico.",
+  deactivate_your_account_description: "Una vez desactivada, no se te podrán asignar elementos de trabajo ni se te facturará por tu espacio de trabajo. Para reactivar tu cuenta, necesitarás una invitación a un espacio de trabajo con esta dirección de correo electrónico.",
   deactivating: "Desactivando",
   confirm: "Confirmar",
   confirming: "Confirmando",
@@ -985,8 +958,7 @@ export default {
       label: "Agregar elemento de trabajo",
       cycle: {
         failed: "No se pudo agregar el elemento de trabajo al ciclo. Por favor, inténtalo de nuevo.",
-        success:
-          "{count, plural, one {Elemento de trabajo agregado} other {Elementos de trabajo agregados}} al ciclo correctamente.",
+        success: "{count, plural, one {Elemento de trabajo agregado} other {Elementos de trabajo agregados}} al ciclo correctamente.",
         loading: "Agregando {count, plural, one {elemento de trabajo} other {elementos de trabajo}} al ciclo",
       },
       assignee: "Agregar asignados",
@@ -1101,8 +1073,7 @@ export default {
     archive: {
       description: "Solo los elementos de trabajo completados\no cancelados pueden ser archivados",
       label: "Archivar elemento de trabajo",
-      confirm_message:
-        "¿Estás seguro de que quieres archivar el elemento de trabajo? Todos tus elementos archivados pueden ser restaurados más tarde.",
+      confirm_message: "¿Estás seguro de que quieres archivar el elemento de trabajo? Todos tus elementos archivados pueden ser restaurados más tarde.",
       success: {
         label: "Archivo exitoso",
         message: "Tus archivos se pueden encontrar en los archivos del proyecto.",
@@ -1271,8 +1242,7 @@ export default {
       },
       sidebar_filter: {
         title: "No hay elementos de trabajo coincidentes",
-        description:
-          "Ningún elemento de trabajo coincide con el filtro aplicado en intake. Crea un nuevo elemento de trabajo.",
+        description: "Ningún elemento de trabajo coincide con el filtro aplicado en intake. Crea un nuevo elemento de trabajo.",
       },
       detail: {
         title: "Selecciona un elemento de trabajo para ver sus detalles.",
@@ -1300,13 +1270,11 @@ export default {
     errors: {
       creation_disabled: {
         title: "Solo el administrador de tu instancia puede crear espacios de trabajo",
-        description:
-          "Si conoces la dirección de correo electrónico del administrador de tu instancia, haz clic en el botón de abajo para ponerte en contacto con él.",
+        description: "Si conoces la dirección de correo electrónico del administrador de tu instancia, haz clic en el botón de abajo para ponerte en contacto con él.",
         request_button: "Solicitar administrador de instancia",
       },
       validation: {
-        name_alphanumeric:
-          "Los nombres de espacios de trabajo solo pueden contener (' '), ('-'), ('_') y caracteres alfanuméricos.",
+        name_alphanumeric: "Los nombres de espacios de trabajo solo pueden contener (' '), ('-'), ('_') y caracteres alfanuméricos.",
         name_length: "Limita tu nombre a 80 caracteres.",
         url_alphanumeric: "Las URLs solo pueden contener ('-') y caracteres alfanuméricos.",
         url_length: "Limita tu URL a 48 caracteres.",
@@ -1336,14 +1304,12 @@ export default {
     empty_state: {
       general: {
         title: "Resumen de tus proyectos, actividad y métricas",
-        description:
-          "Bienvenido a Plane, estamos emocionados de tenerte aquí. Crea tu primer proyecto y rastrea tus elementos de trabajo, y esta página se transformará en un espacio que te ayuda a progresar. Los administradores también verán elementos que ayudan a su equipo a progresar.",
+        description: "Bienvenido a Plane, estamos emocionados de tenerte aquí. Crea tu primer proyecto y rastrea tus elementos de trabajo, y esta página se transformará en un espacio que te ayuda a progresar. Los administradores también verán elementos que ayudan a su equipo a progresar.",
         primary_button: {
           text: "Construye tu primer proyecto",
           comic: {
             title: "Todo comienza con un proyecto en Plane",
-            description:
-              "Un proyecto podría ser la hoja de ruta de un producto, una campaña de marketing o el lanzamiento de un nuevo automóvil.",
+            description: "Un proyecto podría ser la hoja de ruta de un producto, una campaña de marketing o el lanzamiento de un nuevo automóvil.",
           },
         },
       },
@@ -1393,16 +1359,13 @@ export default {
         description: "Los elementos de trabajo asignados a ti, desglosados por estado, aparecerán aquí.",
       },
       general: {
-        title:
-          "Rastrea el progreso, las cargas de trabajo y las asignaciones. Identifica tendencias, elimina bloqueos y trabaja más rápido",
-        description:
-          "Ve alcance versus demanda, estimaciones y crecimiento del alcance. Obtén rendimiento por miembros del equipo y equipos, y asegúrate de que tu proyecto se ejecute a tiempo.",
+        title: "Rastrea el progreso, las cargas de trabajo y las asignaciones. Identifica tendencias, elimina bloqueos y trabaja más rápido",
+        description: "Ve alcance versus demanda, estimaciones y crecimiento del alcance. Obtén rendimiento por miembros del equipo y equipos, y asegúrate de que tu proyecto se ejecute a tiempo.",
         primary_button: {
           text: "Inicia tu primer proyecto",
           comic: {
             title: "Analytics funciona mejor con Ciclos + Módulos",
-            description:
-              "Primero, encuadra tus elementos de trabajo en Ciclos y, si puedes, agrupa elementos que abarcan más de un ciclo en Módulos. Revisa ambos en la navegación izquierda.",
+            description: "Primero, encuadra tus elementos de trabajo en Ciclos y, si puedes, agrupa elementos que abarcan más de un ciclo en Módulos. Revisa ambos en la navegación izquierda.",
           },
         },
       },
@@ -1470,34 +1433,29 @@ export default {
     empty_state: {
       general: {
         title: "No hay proyectos activos",
-        description:
-          "Piensa en cada proyecto como el padre para el trabajo orientado a objetivos. Los proyectos son donde viven las Tareas, Ciclos y Módulos y, junto con tus colegas, te ayudan a alcanzar ese objetivo. Crea un nuevo proyecto o filtra por proyectos archivados.",
+        description: "Piensa en cada proyecto como el padre para el trabajo orientado a objetivos. Los proyectos son donde viven las Tareas, Ciclos y Módulos y, junto con tus colegas, te ayudan a alcanzar ese objetivo. Crea un nuevo proyecto o filtra por proyectos archivados.",
         primary_button: {
           text: "Inicia tu primer proyecto",
           comic: {
             title: "Todo comienza con un proyecto en Plane",
-            description:
-              "Un proyecto podría ser la hoja de ruta de un producto, una campaña de marketing o el lanzamiento de un nuevo automóvil.",
+            description: "Un proyecto podría ser la hoja de ruta de un producto, una campaña de marketing o el lanzamiento de un nuevo automóvil.",
           },
         },
       },
       no_projects: {
         title: "Sin proyecto",
-        description:
-          "Para crear elementos de trabajo o gestionar tu trabajo, necesitas crear un proyecto o ser parte de uno.",
+        description: "Para crear elementos de trabajo o gestionar tu trabajo, necesitas crear un proyecto o ser parte de uno.",
         primary_button: {
           text: "Inicia tu primer proyecto",
           comic: {
             title: "Todo comienza con un proyecto en Plane",
-            description:
-              "Un proyecto podría ser la hoja de ruta de un producto, una campaña de marketing o el lanzamiento de un nuevo automóvil.",
+            description: "Un proyecto podría ser la hoja de ruta de un producto, una campaña de marketing o el lanzamiento de un nuevo automóvil.",
           },
         },
       },
       filter: {
         title: "No hay proyectos coincidentes",
-        description:
-          "No se detectaron proyectos con los criterios coincidentes. \n Crea un nuevo proyecto en su lugar.",
+        description: "No se detectaron proyectos con los criterios coincidentes. \n Crea un nuevo proyecto en su lugar.",
       },
       search: {
         description: "No se detectaron proyectos con los criterios coincidentes.\nCrea un nuevo proyecto en su lugar",
@@ -1509,8 +1467,7 @@ export default {
     empty_state: {
       "all-issues": {
         title: "No hay elementos de trabajo en el proyecto",
-        description:
-          "¡Primer proyecto completado! Ahora, divide tu trabajo en piezas rastreables con elementos de trabajo. ¡Vamos!",
+        description: "¡Primer proyecto completado! Ahora, divide tu trabajo en piezas rastreables con elementos de trabajo. ¡Vamos!",
         primary_button: {
           text: "Crear nuevo elemento de trabajo",
         },
@@ -1540,8 +1497,7 @@ export default {
     },
     delete_view: {
       title: "¿Estás seguro de que quieres eliminar esta vista?",
-      content:
-        "Si confirmas, todas las opciones de ordenación, filtro y visualización + el diseño que has elegido para esta vista se eliminarán permanentemente sin posibilidad de restaurarlas.",
+      content: "Si confirmas, todas las opciones de ordenación, filtro y visualización + el diseño que has elegido para esta vista se eliminarán permanentemente sin posibilidad de restaurarlas.",
     },
   },
   account_settings: {
@@ -1589,8 +1545,7 @@ export default {
     label: "Configuración del espacio de trabajo",
     page_label: "{workspace} - Configuración general",
     key_created: "Clave creada",
-    copy_key:
-      "Copia y guarda esta clave secreta en Plane Pages. No podrás ver esta clave después de hacer clic en Cerrar. Se ha descargado un archivo CSV que contiene la clave.",
+    copy_key: "Copia y guarda esta clave secreta en Plane Pages. No podrás ver esta clave después de hacer clic en Cerrar. Se ha descargado un archivo CSV que contiene la clave.",
     token_copied: "Token copiado al portapapeles.",
     settings: {
       general: {
@@ -1602,13 +1557,11 @@ export default {
         url: "URL del espacio de trabajo",
         update_workspace: "Actualizar espacio de trabajo",
         delete_workspace: "Eliminar este espacio de trabajo",
-        delete_workspace_description:
-          "Al eliminar un espacio de trabajo, todos los datos y recursos dentro de ese espacio se eliminarán permanentemente y no podrán recuperarse.",
+        delete_workspace_description: "Al eliminar un espacio de trabajo, todos los datos y recursos dentro de ese espacio se eliminarán permanentemente y no podrán recuperarse.",
         delete_btn: "Eliminar este espacio de trabajo",
         delete_modal: {
           title: "¿Está seguro de que desea eliminar este espacio de trabajo?",
-          description:
-            "Tiene una prueba activa de uno de nuestros planes de pago. Por favor, cancelela primero para continuar.",
+          description: "Tiene una prueba activa de uno de nuestros planes de pago. Por favor, cancelela primero para continuar.",
           dismiss: "Descartar",
           cancel: "Cancelar prueba",
           success_title: "Espacio de trabajo eliminado.",
@@ -1632,8 +1585,7 @@ export default {
         add_member: "Agregar miembro",
         pending_invites: "Invitaciones pendientes",
         invitations_sent_successfully: "Invitaciones enviadas exitosamente",
-        leave_confirmation:
-          "¿Estás seguro de que quieres abandonar el espacio de trabajo? Ya no tendrás acceso a este espacio de trabajo. Esta acción no se puede deshacer.",
+        leave_confirmation: "¿Estás seguro de que quieres abandonar el espacio de trabajo? Ya no tendrás acceso a este espacio de trabajo. Esta acción no se puede deshacer.",
         details: {
           full_name: "Nombre completo",
           display_name: "Nombre para mostrar",
@@ -1740,8 +1692,7 @@ export default {
         generating: "Generando",
         delete: {
           title: "Eliminar token de API",
-          description:
-            "Cualquier aplicación que use este token ya no tendrá acceso a los datos de Plane. Esta acción no se puede deshacer.",
+          description: "Cualquier aplicación que use este token ya no tendrá acceso a los datos de Plane. Esta acción no se puede deshacer.",
           success: {
             title: "¡Éxito!",
             message: "El token de API se ha eliminado exitosamente",
@@ -1756,8 +1707,7 @@ export default {
     empty_state: {
       api_tokens: {
         title: "No se han creado tokens de API",
-        description:
-          "Las APIs de Plane se pueden usar para integrar tus datos en Plane con cualquier sistema externo. Crea un token para comenzar.",
+        description: "Las APIs de Plane se pueden usar para integrar tus datos en Plane con cualquier sistema externo. Crea un token para comenzar.",
       },
       webhooks: {
         title: "No se han agregado webhooks",
@@ -1819,8 +1769,7 @@ export default {
     empty_state: {
       activity: {
         title: "Aún no hay actividades",
-        description:
-          "¡Comienza creando un nuevo elemento de trabajo! Agrégale detalles y propiedades. Explora más en Plane para ver tu actividad.",
+        description: "¡Comienza creando un nuevo elemento de trabajo! Agrégale detalles y propiedades. Explora más en Plane para ver tu actividad.",
       },
       assigned: {
         title: "No hay elementos de trabajo asignados a ti",
@@ -1842,14 +1791,12 @@ export default {
       please_select_a_timezone: "Por favor selecciona una zona horaria",
       archive_project: {
         title: "Archivar proyecto",
-        description:
-          "Archivar un proyecto lo eliminará de tu navegación lateral aunque aún podrás acceder a él desde tu página de proyectos. Puedes restaurar el proyecto o eliminarlo cuando quieras.",
+        description: "Archivar un proyecto lo eliminará de tu navegación lateral aunque aún podrás acceder a él desde tu página de proyectos. Puedes restaurar el proyecto o eliminarlo cuando quieras.",
         button: "Archivar proyecto",
       },
       delete_project: {
         title: "Eliminar proyecto",
-        description:
-          "Al eliminar un proyecto, todos los datos y recursos dentro de ese proyecto se eliminarán permanentemente y no podrán recuperarse.",
+        description: "Al eliminar un proyecto, todos los datos y recursos dentro de ese proyecto se eliminarán permanentemente y no podrán recuperarse.",
         button: "Eliminar mi proyecto",
       },
       toast: {
@@ -1863,8 +1810,7 @@ export default {
       default_assignee: "Asignado por defecto",
       guest_super_permissions: {
         title: "Otorgar acceso de visualización a todos los elementos de trabajo para usuarios invitados:",
-        sub_heading:
-          "Esto permitirá a los invitados tener acceso de visualización a todos los elementos de trabajo del proyecto.",
+        sub_heading: "Esto permitirá a los invitados tener acceso de visualización a todos los elementos de trabajo del proyecto.",
       },
       invite_members: {
         title: "Invitar miembros",
@@ -1948,8 +1894,7 @@ export default {
         empty: "El valor de la estimación no puede estar vacío.",
         already_exists: "El valor de la estimación ya existe.",
         unsaved_changes: "Tienes cambios sin guardar. Por favor guárdalos antes de hacer clic en Hecho",
-        remove_empty:
-          "La estimación no puede estar vacía. Ingresa un valor en cada campo o elimina aquellos para los que no tienes valores.",
+        remove_empty: "La estimación no puede estar vacía. Ingresa un valor en cada campo o elimina aquellos para los que no tienes valores.",
       },
       systems: {
         points: {
@@ -1975,14 +1920,12 @@ export default {
       label: "Automatizaciones",
       "auto-archive": {
         title: "Archivar automáticamente elementos de trabajo cerrados",
-        description:
-          "Plane archivará automáticamente los elementos de trabajo que hayan sido completados o cancelados.",
+        description: "Plane archivará automáticamente los elementos de trabajo que hayan sido completados o cancelados.",
         duration: "Archivar automáticamente elementos de trabajo cerrados durante",
       },
       "auto-close": {
         title: "Cerrar automáticamente elementos de trabajo",
-        description:
-          "Plane cerrará automáticamente los elementos de trabajo que no hayan sido completados o cancelados.",
+        description: "Plane cerrará automáticamente los elementos de trabajo que no hayan sido completados o cancelados.",
         duration: "Cerrar automáticamente elementos de trabajo inactivos durante",
         auto_close_status: "Estado de cierre automático",
       },
@@ -2084,22 +2027,19 @@ export default {
           title: "¡Error!",
         },
         error: {
-          already_exists:
-            "Ya tienes un ciclo en las fechas dadas, si quieres crear un ciclo en borrador, puedes hacerlo eliminando ambas fechas.",
+          already_exists: "Ya tienes un ciclo en las fechas dadas, si quieres crear un ciclo en borrador, puedes hacerlo eliminando ambas fechas.",
         },
       },
     },
     empty_state: {
       general: {
         title: "Agrupa y delimita tu trabajo en Ciclos.",
-        description:
-          "Divide el trabajo en bloques de tiempo, trabaja hacia atrás desde la fecha límite de tu proyecto para establecer fechas, y haz un progreso tangible como equipo.",
+        description: "Divide el trabajo en bloques de tiempo, trabaja hacia atrás desde la fecha límite de tu proyecto para establecer fechas, y haz un progreso tangible como equipo.",
         primary_button: {
           text: "Establece tu primer ciclo",
           comic: {
             title: "Los ciclos son bloques de tiempo repetitivos.",
-            description:
-              "Un sprint, una iteración, o cualquier otro término que uses para el seguimiento semanal o quincenal del trabajo es un ciclo.",
+            description: "Un sprint, una iteración, o cualquier otro término que uses para el seguimiento semanal o quincenal del trabajo es un ciclo.",
           },
         },
       },
@@ -2115,18 +2055,15 @@ export default {
       },
       completed_no_issues: {
         title: "No hay elementos de trabajo en el ciclo",
-        description:
-          "No hay elementos de trabajo en el ciclo. Los elementos de trabajo están transferidos u ocultos. Para ver elementos de trabajo ocultos si los hay, actualiza tus propiedades de visualización según corresponda.",
+        description: "No hay elementos de trabajo en el ciclo. Los elementos de trabajo están transferidos u ocultos. Para ver elementos de trabajo ocultos si los hay, actualiza tus propiedades de visualización según corresponda.",
       },
       active: {
         title: "No hay ciclo activo",
-        description:
-          "Un ciclo activo incluye cualquier período que abarque la fecha de hoy dentro de su rango. Encuentra el progreso y los detalles del ciclo activo aquí.",
+        description: "Un ciclo activo incluye cualquier período que abarque la fecha de hoy dentro de su rango. Encuentra el progreso y los detalles del ciclo activo aquí.",
       },
       archived: {
         title: "Aún no hay ciclos archivados",
-        description:
-          "Para mantener ordenado tu proyecto, archiva los ciclos completados. Encuéntralos aquí una vez archivados.",
+        description: "Para mantener ordenado tu proyecto, archiva los ciclos completados. Encuéntralos aquí una vez archivados.",
       },
     },
   },
@@ -2134,21 +2071,18 @@ export default {
     empty_state: {
       no_issues: {
         title: "Crea un elemento de trabajo y asígnalo a alguien, incluso a ti mismo",
-        description:
-          "Piensa en los elementos de trabajo como trabajos, tareas, trabajo o JTBD. Los cuales nos gustan. Un elemento de trabajo y sus sub-elementos de trabajo son generalmente acciones basadas en tiempo asignadas a miembros de tu equipo. Tu equipo crea, asigna y completa elementos de trabajo para mover tu proyecto hacia su objetivo.",
+        description: "Piensa en los elementos de trabajo como trabajos, tareas, trabajo o JTBD. Los cuales nos gustan. Un elemento de trabajo y sus sub-elementos de trabajo son generalmente acciones basadas en tiempo asignadas a miembros de tu equipo. Tu equipo crea, asigna y completa elementos de trabajo para mover tu proyecto hacia su objetivo.",
         primary_button: {
           text: "Crea tu primer elemento de trabajo",
           comic: {
             title: "Los elementos de trabajo son bloques de construcción en Plane.",
-            description:
-              "Rediseñar la interfaz de Plane, Cambiar la marca de la empresa o Lanzar el nuevo sistema de inyección de combustible son ejemplos de elementos de trabajo que probablemente tienen sub-elementos de trabajo.",
+            description: "Rediseñar la interfaz de Plane, Cambiar la marca de la empresa o Lanzar el nuevo sistema de inyección de combustible son ejemplos de elementos de trabajo que probablemente tienen sub-elementos de trabajo.",
           },
         },
       },
       no_archived_issues: {
         title: "Aún no hay elementos de trabajo archivados",
-        description:
-          "Manualmente o a través de automatización, puedes archivar elementos de trabajo que estén completados o cancelados. Encuéntralos aquí una vez archivados.",
+        description: "Manualmente o a través de automatización, puedes archivar elementos de trabajo que estén completados o cancelados. Encuéntralos aquí una vez archivados.",
         primary_button: {
           text: "Establecer automatización",
         },
@@ -2171,14 +2105,12 @@ export default {
     empty_state: {
       general: {
         title: "Mapea los hitos de tu proyecto a Módulos y rastrea el trabajo agregado fácilmente.",
-        description:
-          "Un grupo de elementos de trabajo que pertenecen a un padre lógico y jerárquico forman un módulo. Piensa en ellos como una forma de rastrear el trabajo por hitos del proyecto. Tienen sus propios períodos y fechas límite, así como análisis para ayudarte a ver qué tan cerca o lejos estás de un hito.",
+        description: "Un grupo de elementos de trabajo que pertenecen a un padre lógico y jerárquico forman un módulo. Piensa en ellos como una forma de rastrear el trabajo por hitos del proyecto. Tienen sus propios períodos y fechas límite, así como análisis para ayudarte a ver qué tan cerca o lejos estás de un hito.",
         primary_button: {
           text: "Construye tu primer módulo",
           comic: {
             title: "Los módulos ayudan a agrupar el trabajo por jerarquía.",
-            description:
-              "Un módulo de carrito, un módulo de chasis y un módulo de almacén son buenos ejemplos de esta agrupación.",
+            description: "Un módulo de carrito, un módulo de chasis y un módulo de almacén son buenos ejemplos de esta agrupación.",
           },
         },
       },
@@ -2194,8 +2126,7 @@ export default {
       },
       archived: {
         title: "Aún no hay Módulos archivados",
-        description:
-          "Para mantener ordenado tu proyecto, archiva los módulos completados o cancelados. Encuéntralos aquí una vez archivados.",
+        description: "Para mantener ordenado tu proyecto, archiva los módulos completados o cancelados. Encuéntralos aquí una vez archivados.",
       },
       sidebar: {
         in_active: "Este módulo aún no está activo.",
@@ -2221,14 +2152,12 @@ export default {
     empty_state: {
       general: {
         title: "Guarda vistas filtradas para tu proyecto. Crea tantas como necesites",
-        description:
-          "Las vistas son un conjunto de filtros guardados que usas frecuentemente o a los que quieres tener fácil acceso. Todos tus colegas en un proyecto pueden ver las vistas de todos y elegir la que mejor se adapte a sus necesidades.",
+        description: "Las vistas son un conjunto de filtros guardados que usas frecuentemente o a los que quieres tener fácil acceso. Todos tus colegas en un proyecto pueden ver las vistas de todos y elegir la que mejor se adapte a sus necesidades.",
         primary_button: {
           text: "Crea tu primera vista",
           comic: {
             title: "Las vistas funcionan sobre las propiedades de los Elementos de trabajo.",
-            description:
-              "Puedes crear una vista desde aquí con tantas propiedades como filtros como consideres apropiado.",
+            description: "Puedes crear una vista desde aquí con tantas propiedades como filtros como consideres apropiado.",
           },
         },
       },
@@ -2239,25 +2168,21 @@ export default {
     },
     delete_view: {
       title: "¿Estás seguro de que quieres eliminar esta vista?",
-      content:
-        "Si confirmas, todas las opciones de ordenación, filtro y visualización + el diseño que has elegido para esta vista se eliminarán permanentemente sin posibilidad de restaurarlas.",
+      content: "Si confirmas, todas las opciones de ordenación, filtro y visualización + el diseño que has elegido para esta vista se eliminarán permanentemente sin posibilidad de restaurarlas.",
     },
   },
   project_page: {
     empty_state: {
       general: {
-        title:
-          "Escribe una nota, un documento o una base de conocimiento completa. Obtén ayuda de Galileo, el asistente de IA de Plane, para comenzar",
-        description:
-          "Las páginas son espacios para pensamientos en Plane. Toma notas de reuniones, fórmalas fácilmente, integra elementos de trabajo, organízalas usando una biblioteca de componentes y mantenlas todas en el contexto de tu proyecto. Para hacer cualquier documento rápidamente, invoca a Galileo, la IA de Plane, con un atajo o haciendo clic en un botón.",
+        title: "Escribe una nota, un documento o una base de conocimiento completa. Obtén ayuda de Galileo, el asistente de IA de Plane, para comenzar",
+        description: "Las páginas son espacios para pensamientos en Plane. Toma notas de reuniones, fórmalas fácilmente, integra elementos de trabajo, organízalas usando una biblioteca de componentes y mantenlas todas en el contexto de tu proyecto. Para hacer cualquier documento rápidamente, invoca a Galileo, la IA de Plane, con un atajo o haciendo clic en un botón.",
         primary_button: {
           text: "Crea tu primera página",
         },
       },
       private: {
         title: "Aún no hay páginas privadas",
-        description:
-          "Mantén tus pensamientos privados aquí. Cuando estés listo para compartir, el equipo está a solo un clic de distancia.",
+        description: "Mantén tus pensamientos privados aquí. Cuando estés listo para compartir, el equipo está a solo un clic de distancia.",
         primary_button: {
           text: "Crea tu primera página",
         },
@@ -2296,8 +2221,7 @@ export default {
     empty_state: {
       general: {
         title: "Aún no hay comentarios",
-        description:
-          "Los comentarios pueden usarse como un espacio de discusión y seguimiento para los elementos de trabajo",
+        description: "Los comentarios pueden usarse como un espacio de discusión y seguimiento para los elementos de trabajo",
       },
     },
   },
@@ -2380,40 +2304,35 @@ export default {
     empty_state: {
       inbox: {
         title: "Intake no está habilitado para el proyecto.",
-        description:
-          "Intake te ayuda a gestionar las solicitudes entrantes a tu proyecto y agregarlas como elementos de trabajo en tu flujo de trabajo. Habilita Intake desde la configuración del proyecto para gestionar las solicitudes.",
+        description: "Intake te ayuda a gestionar las solicitudes entrantes a tu proyecto y agregarlas como elementos de trabajo en tu flujo de trabajo. Habilita Intake desde la configuración del proyecto para gestionar las solicitudes.",
         primary_button: {
           text: "Gestionar funciones",
         },
       },
       cycle: {
         title: "Los Ciclos no están habilitados para este proyecto.",
-        description:
-          "Divide el trabajo en fragmentos limitados por tiempo, trabaja hacia atrás desde la fecha límite de tu proyecto para establecer fechas y haz un progreso tangible como equipo. Habilita la función de ciclos para tu proyecto para comenzar a usarlos.",
+        description: "Divide el trabajo en fragmentos limitados por tiempo, trabaja hacia atrás desde la fecha límite de tu proyecto para establecer fechas y haz un progreso tangible como equipo. Habilita la función de ciclos para tu proyecto para comenzar a usarlos.",
         primary_button: {
           text: "Gestionar funciones",
         },
       },
       module: {
         title: "Los Módulos no están habilitados para el proyecto.",
-        description:
-          "Los Módulos son los componentes básicos de tu proyecto. Habilita los módulos desde la configuración del proyecto para comenzar a usarlos.",
+        description: "Los Módulos son los componentes básicos de tu proyecto. Habilita los módulos desde la configuración del proyecto para comenzar a usarlos.",
         primary_button: {
           text: "Gestionar funciones",
         },
       },
       page: {
         title: "Las Páginas no están habilitadas para el proyecto.",
-        description:
-          "Las Páginas son los componentes básicos de tu proyecto. Habilita las páginas desde la configuración del proyecto para comenzar a usarlas.",
+        description: "Las Páginas son los componentes básicos de tu proyecto. Habilita las páginas desde la configuración del proyecto para comenzar a usarlas.",
         primary_button: {
           text: "Gestionar funciones",
         },
       },
       view: {
         title: "Las Vistas no están habilitadas para el proyecto.",
-        description:
-          "Las Vistas son los componentes básicos de tu proyecto. Habilita las vistas desde la configuración del proyecto para comenzar a usarlas.",
+        description: "Las Vistas son los componentes básicos de tu proyecto. Habilita las vistas desde la configuración del proyecto para comenzar a usarlas.",
         primary_button: {
           text: "Gestionar funciones",
         },
@@ -2424,8 +2343,7 @@ export default {
     draft_an_issue: "Borrador de elemento de trabajo",
     empty_state: {
       title: "Los elementos de trabajo a medio escribir y pronto los comentarios aparecerán aquí.",
-      description:
-        "Para probar esto, comienza a agregar un elemento de trabajo y déjalo a medias o crea tu primer borrador a continuación. 😉",
+      description: "Para probar esto, comienza a agregar un elemento de trabajo y déjalo a medias o crea tu primer borrador a continuación. 😉",
       primary_button: {
         text: "Crea tu primer borrador",
       },
@@ -2448,19 +2366,16 @@ export default {
     title: "Tus notas adhesivas",
     placeholder: "haz clic para escribir aquí",
     all: "Todas las notas adhesivas",
-    "no-data":
-      "Anota una idea, captura un momento eureka o registra una inspiración. Agrega una nota adhesiva para comenzar.",
+    "no-data": "Anota una idea, captura un momento eureka o registra una inspiración. Agrega una nota adhesiva para comenzar.",
     add: "Agregar nota adhesiva",
     search_placeholder: "Buscar por título",
     delete: "Eliminar nota adhesiva",
     delete_confirmation: "¿Estás seguro de que quieres eliminar esta nota adhesiva?",
     empty_state: {
-      simple:
-        "Anota una idea, captura un momento eureka o registra una inspiración. Agrega una nota adhesiva para comenzar.",
+      simple: "Anota una idea, captura un momento eureka o registra una inspiración. Agrega una nota adhesiva para comenzar.",
       general: {
         title: "Las notas adhesivas son notas rápidas y tareas pendientes que anotas al vuelo.",
-        description:
-          "Captura tus pensamientos e ideas sin esfuerzo creando notas adhesivas a las que puedes acceder en cualquier momento y desde cualquier lugar.",
+        description: "Captura tus pensamientos e ideas sin esfuerzo creando notas adhesivas a las que puedes acceder en cualquier momento y desde cualquier lugar.",
         primary_button: {
           text: "Agregar nota adhesiva",
         },
@@ -2627,10 +2542,8 @@ export default {
     edited_by: "Editado por",
   },
   self_hosted_maintenance_message: {
-    plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start:
-      "Plane no se inició. Esto podría deberse a que uno o más servicios de Plane fallaron al iniciar.",
-    choose_view_logs_from_setup_sh_and_docker_logs_to_be_sure:
-      "Selecciona View Logs desde setup.sh y los logs de Docker para estar seguro.",
+    plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start: "Plane no se inició. Esto podría deberse a que uno o más servicios de Plane fallaron al iniciar.",
+    choose_view_logs_from_setup_sh_and_docker_logs_to_be_sure: "Selecciona View Logs desde setup.sh y los logs de Docker para estar seguro.",
   },
   page_navigation_pane: {
     tabs: {
@@ -2671,4 +2584,7 @@ export default {
     close_button: "Cerrar panel de navegación",
     outline_floating_button: "Abrir esquema",
   },
+  glott_test_a: "Traducciones automáticas en cada pull request.",
+  glott_test_b: "Cobertura mantenida en todos los idiomas.",
+  glott_test_c: "Sin cambios en su stack existente.",
 } as const;
